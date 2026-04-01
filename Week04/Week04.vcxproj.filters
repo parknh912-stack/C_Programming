@@ -44,6 +44,12 @@
     <ClCompile Include="0401_이진탐색_도약.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0401_이진탐색_정올3517.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0401_이진탐색_정올7009.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />

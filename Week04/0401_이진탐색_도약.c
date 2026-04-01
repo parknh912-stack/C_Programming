@@ -26,8 +26,7 @@ int main()
 	input_data();
 	qsort(ary, N, sizeof(int), compare_int);
 
-	int res = jump();
-	printf("%d\n", res);
+	printf("%d\n", jump());
 	return 0;
 }
 
