@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week03", "Week03\Week03.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week04", "Week04\Week04.vcxproj", "{F6DF184E-B6EB-4AA1-A5DE-394FF2DBE4AF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Telechops4_Game_Project", "Telechops4_Game_Project\Telechops4_Game_Project.vcxproj", "{66487228-CB29-418A-977A-59ACD520A1A2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,14 +41,6 @@ Global
 		{F6DF184E-B6EB-4AA1-A5DE-394FF2DBE4AF}.Release|x64.Build.0 = Release|x64
 		{F6DF184E-B6EB-4AA1-A5DE-394FF2DBE4AF}.Release|x86.ActiveCfg = Release|Win32
 		{F6DF184E-B6EB-4AA1-A5DE-394FF2DBE4AF}.Release|x86.Build.0 = Release|Win32
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Debug|x64.ActiveCfg = Debug|x64
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Debug|x64.Build.0 = Debug|x64
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Debug|x86.ActiveCfg = Debug|Win32
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Debug|x86.Build.0 = Debug|Win32
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Release|x64.ActiveCfg = Release|x64
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Release|x64.Build.0 = Release|x64
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Release|x86.ActiveCfg = Release|Win32
-		{66487228-CB29-418A-977A-59ACD520A1A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

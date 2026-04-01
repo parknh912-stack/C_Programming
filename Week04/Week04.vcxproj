@@ -128,6 +128,7 @@
     <ClInclude Include="___AAA___.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="0401_binary_search.c" />
     <ClCompile Include="08_등산로_힙트리.c" />
     <ClCompile Include="test_박남현.c" />
     <ClCompile Include="Tree.c" />

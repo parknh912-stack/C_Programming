@@ -1,5 +1,5 @@
 // 박남현
-#define TEST 2
+#define TEST 0
 
 // 1번 - 오목 (미완성)
 #if TEST == 1

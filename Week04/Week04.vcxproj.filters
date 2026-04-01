@@ -38,6 +38,9 @@
     <ClCompile Include="test_박남현.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0401_binary_search.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />
