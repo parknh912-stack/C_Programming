@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\LinkedList">
+      <UniqueIdentifier>{0e9c054e-576e-4151-b3a9-3822e87e9cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Recursive">
+      <UniqueIdentifier>{bf09c8cc-99ce-4ee0-a612-ef24b301864c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{5ffbc219-35d0-4789-b241-dd7426942f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algorithm_Test">
+      <UniqueIdentifier>{d138bef9-45f2-47bb-936c-645ba04d6a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algorithm_Test\BFS">
+      <UniqueIdentifier>{3002e22a-d05a-4d22-a929-0b76e089bbb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algorithm_Test\DFS">
+      <UniqueIdentifier>{58abfe90-71c4-441b-956b-44f30d83a2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algorithm_Test\Linked_List">
+      <UniqueIdentifier>{7cda7914-9a39-41fd-8671-1e38e6e6ca38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="03_DLL_LIB.c">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DLL_MAIN.c">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="single_linked_list_lib.c">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="single_linked_list_main.c">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Queue_LIB.c">
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Queue_MAIN.c">
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1889_NQueen.c">
+      <Filter>소스 파일\Algorithm_Test\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1681_Hamiltonian_path.c">
+      <Filter>소스 파일\Algorithm_Test\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="recursive.c">
+      <Filter>소스 파일\Algorithm_Test\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1078_저글링방사선.c">
+      <Filter>소스 파일\Algorithm_Test\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_2613_tomato_h.c">
+      <Filter>소스 파일\Algorithm_Test\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_1406_editor.c">
+      <Filter>소스 파일\Algorithm_Test\Linked_List</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_2606_virus.c">
+      <Filter>소스 파일\Algorithm_Test\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1006_로봇.c">
+      <Filter>소스 파일\Algorithm_Test\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1661_maze_escape_robot.c">
+      <Filter>소스 파일\Algorithm_Test\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1106_장기.c">
+      <Filter>소스 파일\Algorithm_Test\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="jungol_1662_비숍.c">
+      <Filter>소스 파일\Algorithm_Test\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="recursive2.c">
+      <Filter>소스 파일\Algorithm_Test\BFS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="___AAA___.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SLL_prac.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="QUEUE.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="b2667.txt" />
+    <Text Include="B2606.txt" />
+    <Text Include="J1681.txt" />
+    <Text Include="J1111.txt" />
+    <Text Include="J1662.txt" />
+  </ItemGroup>
+</Project>

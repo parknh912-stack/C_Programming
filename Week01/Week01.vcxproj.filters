@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\prac_extern">
+      <UniqueIdentifier>{9e98aa57-461e-4196-bb39-ae7c64f97948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day">
+      <UniqueIdentifier>{9bf3c168-4053-4c45-b886-4d32c380bb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Practice">
+      <UniqueIdentifier>{b5014259-b6cb-4766-b545-4e04480b6045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일\prac_extern</Filter>
+    </ClCompile>
+    <ClCompile Include="func.c">
+      <Filter>소스 파일\prac_extern</Filter>
+    </ClCompile>
+    <ClCompile Include="num.c">
+      <Filter>소스 파일\prac_extern</Filter>
+    </ClCompile>
+    <ClCompile Include="prac1.c">
+      <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="practice_c100.c">
+      <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="reference1.c">
+      <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="mylib.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day07.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day01_02.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day03.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day04_05.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day06.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day08.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day09.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="study.c">
+      <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="day10.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="day11.c">
+      <Filter>소스 파일\Day</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="score.txt" />
+    <Text Include="score2.txt" />
+    <Text Include="animal.txt" />
+    <Text Include="study.txt" />
+    <Text Include="data.txt" />
+    <Text Include="student.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mylib.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="___AAA___.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
