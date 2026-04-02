@@ -1,6 +1,6 @@
 // 0401 - 이진탐색 - 도둑 잡아라 - 정올 7009 https://jungol.co.kr/problem/7009
-
-#if 0
+// 미완성
+#if 1
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -51,6 +51,7 @@ bool binary_search(int value)
             L = M + 1;
         }
     }
+    return -1;
 }
 
 
@@ -59,11 +60,18 @@ int main(void)
     input_data();
     qsort(ary, N, sizeof(int), compare_increase);
     qsort(ary2, Q, sizeof(int), compare_increase);
+    int suspect = Q;
 
-    for (int i = 0; i < Q; ++i)
-    {
-
+	for (int i = 0; i < Q; ++i)
+	{
+		res[i] = binary_search(ary2[i]);
+        if (res[i] < 0)
+            printf("%d ", ary2[res[i]]);
+        else
+            suspect--;
     }
+    if (suspect == 0)
+        printf("-1\n");
 }
 
 #endif

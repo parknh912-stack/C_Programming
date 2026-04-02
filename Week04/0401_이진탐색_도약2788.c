@@ -1,8 +1,8 @@
 // 0401 - 이진탐색 - 도약 #2788 https://jungol.co.kr/problem/2788
 
 // --- 함수 선언
-#define JUMP0401 1
-#if JUMP0401 == 1
+#define JUMP 0
+#if JUMP == 1
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -85,10 +85,11 @@ int jump()
 
 			// 가능한 3번 연잎의 범위 : [ary[j] + d1, ary[j] + 2 * d1]
 			lower = binary_search_lower(ary[j] + d1);
+			if (lower < 0) break;
 			upper = binary_search_upper(ary[j] + (2 * d1));
 
 			// 잘못된 범위 일 경우 : 카운트 예외
-			if (lower == -1 || upper == -1) continue;
+			//if (lower == -1 || upper == -1) continue;
 			count += (upper - lower + 1);
 		}
 	}
