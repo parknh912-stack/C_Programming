@@ -1,5 +1,5 @@
 // 0401 - 이진탐색 - 기초
-#define TEST0401 123
+#define TEST0401 0
 #include "___AAA___.h"
 
 

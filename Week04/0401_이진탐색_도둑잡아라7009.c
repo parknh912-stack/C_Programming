@@ -1,6 +1,6 @@
 // 0401 - 이진탐색 - 도둑 잡아라 - 정올 7009 https://jungol.co.kr/problem/7009
 // 미완성
-#if 1
+#if 0
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>

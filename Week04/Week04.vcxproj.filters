@@ -50,9 +50,12 @@
     <ClCompile Include="0401_이진탐색_도둑잡아라7009.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0414_랜선자르기1654.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />
-    <Text Include="test2.txt" />
+    <Text Include="1654.txt" />
   </ItemGroup>
 </Project>
