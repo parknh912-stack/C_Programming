@@ -6,46 +6,47 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <stdint.h>
 #define MAX_N (10000 + 1)
 
-int N, K;
-unsigned int ary[MAX_N];
-long long max_length;
+int32_t N, K;
+uint32_t ary[MAX_N];
+int64_t max_length;
 
 void input_data()
 {
 	(void)freopen("1654.txt", "r", stdin);
 	(void)scanf("%d %d", &K, &N);
-	for (int i = 0; i < K; ++i)
+	for (int32_t i = 0; i < K; ++i)
 	{
-		(void)scanf("%d", &ary[i]);
+		(void)scanf("%u", &ary[i]);
 	}
 }
 
 void print_data()
 {
 	printf("K = %d, N = %d\n", K,N);
-	for (int i = 0; i < K; ++i)
+	for (int32_t i = 0; i < K; ++i)
 	{
-		printf("%d ", ary[i]);
+		printf("%u ", ary[i]);
 	}printf("\n");
 }
 
 void find_max_length()
 {
-	long long temp = 0;
-	for (int i = 0; i < K; ++i)
+	int64_t temp = 0;
+	for (int32_t i = 0; i < K; ++i)
 	{
 		temp += ary[i];
 	}
 	max_length = temp / N;
 }
 
-int check_length_count(long long length)
+int32_t check_length_count(int64_t length)
 {
-	long long count = 0;
+	int64_t count = 0;
 	
-	for (int i = 0; i < K; ++i) 
+	for (int32_t i = 0; i < K; ++i) 
 	{
 		count += (ary[i] / length);
 	}
@@ -56,13 +57,13 @@ int check_length_count(long long length)
 	return 0;
 }
 
-void binary_search(long long length)
+void binary_search(int64_t length)
 {
-	long long L = 1;
-	long long R = length;
-	long long M = 1;
-	long long ret = 0;
-	int is_short;
+	int64_t L = 1;
+	int64_t R = length;
+	int64_t M = 1;
+	int64_t ret = 0;
+	int32_t is_short;
 
 	while (L <= R)
 	{
@@ -84,7 +85,7 @@ void binary_search(long long length)
 	printf("%lld\n", ret);
 }
 
-int main()
+int32_t main()
 {
 	input_data();
 	//print_data();
