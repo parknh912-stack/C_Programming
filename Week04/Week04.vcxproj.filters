@@ -53,6 +53,9 @@
     <ClCompile Include="0414_랜선자르기1654.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0414_문자열폭발_9935.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />

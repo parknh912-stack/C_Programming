@@ -132,6 +132,7 @@
     <ClCompile Include="0401_이진탐색_도약2788.c" />
     <ClCompile Include="0401_이진탐색_Tutorial3517.c" />
     <ClCompile Include="0401_이진탐색_도둑잡아라7009.c" />
+    <ClCompile Include="0414_문자열폭발_9935.c" />
     <ClCompile Include="08_등산로_힙트리.c" />
     <ClCompile Include="0414_랜선자르기1654.c" />
     <ClCompile Include="test_박남현.c" />
