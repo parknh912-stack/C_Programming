@@ -135,6 +135,7 @@
     <ClCompile Include="0401_도둑잡아라_7009.c" />
     <ClCompile Include="0407_블랙잭_2798.c" />
     <ClCompile Include="0414_문자열폭발_9935.c" />
+    <ClCompile Include="0415_회의실배정_1931.c" />
     <ClCompile Include="08_등산로_힙트리.c" />
     <ClCompile Include="0414_랜선자르기_1654.c" />
     <ClCompile Include="test_박남현.c" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Tree_Main.c" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="1931.txt" />
     <Text Include="test1.txt" />
     <Text Include="1654.txt" />
   </ItemGroup>

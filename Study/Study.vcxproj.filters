@@ -62,9 +62,13 @@
     <ClCompile Include="0407_블랙잭_2798.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0415_회의실배정_1931.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />
     <Text Include="1654.txt" />
+    <Text Include="1931.txt" />
   </ItemGroup>
 </Project>
