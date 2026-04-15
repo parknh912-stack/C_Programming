@@ -1,6 +1,6 @@
 // 랜선자르기, 백준 1654 https://www.acmicpc.net/problem/1654
 // Binary_search
-
+#if 0
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
@@ -25,7 +25,7 @@ void input_data()
 
 void print_data()
 {
-	printf("K = %d, N = %d\n", K,N);
+	printf("K = %d, N = %d\n", K, N);
 	for (int32_t i = 0; i < K; ++i)
 	{
 		printf("%u ", ary[i]);
@@ -45,15 +45,15 @@ void find_max_length()
 int32_t check_length_count(int64_t length)
 {
 	int64_t count = 0;
-	
-	for (int32_t i = 0; i < K; ++i) 
+
+	for (int32_t i = 0; i < K; ++i)
 	{
 		count += (ary[i] / length);
 	}
 	//printf("count = %d\n", count);
 	if (count >= N) return 1; // 짧을 때
 	else if (count < N) return -1; // 길 때
-	
+
 	return 0;
 }
 
@@ -95,6 +95,7 @@ int32_t main()
 
 	return 0;
 }
+#endif // 0
 
 /* 아이디어 메모
 K개의 랜선으로 N개의 같은 길이의 랜선을 만드는 문제

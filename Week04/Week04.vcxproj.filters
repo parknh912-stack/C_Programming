@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Tree">
       <UniqueIdentifier>{f9b08a31-b516-4158-8038-381f2152a5fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BinarySearch">
+      <UniqueIdentifier>{15137c69-129c-4e62-8d55-9d5131b7a788}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="___AAA___.h">
@@ -38,22 +41,25 @@
     <ClCompile Include="test_박남현.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="0401_binary_search.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0401_이진탐색_도약2788.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0401_이진탐색_Tutorial3517.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0401_이진탐색_도둑잡아라7009.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0414_랜선자르기1654.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="0414_문자열폭발_9935.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0414_랜선자르기_1654.c">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="0401_tutorial.c">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="0401_Tutorial_3517.c">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="0401_도둑잡아라_7009.c">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="0401_도약_2788.c">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="0407_블랙잭_2798.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
