@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week01", "Week01\Week01.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week03", "Week03\Week03.vcxproj", "{4C1631EE-BE29-462B-9654-5BE81992467C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week04", "Week04\Week04.vcxproj", "{F6DF184E-B6EB-4AA1-A5DE-394FF2DBE4AF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study", "Study\Study.vcxproj", "{F6DF184E-B6EB-4AA1-A5DE-394FF2DBE4AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

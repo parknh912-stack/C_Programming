@@ -1,6 +1,7 @@
 // 문자열 폭발, 백준 9935 https://www.acmicpc.net/problem/9935
 // 문자열, 스택, 자료구조
 
+#if 0
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
@@ -12,6 +13,8 @@ int32_t main()
 {
 
 }
+#endif // 0
+
 
 /*
 아이디어 메모
