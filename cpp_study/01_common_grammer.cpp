@@ -1,6 +1,6 @@
 #if 1
 #include <iostream>
-#define choice 3
+#define choice 1
 
 #if choice == 1
 int main() {
@@ -15,7 +15,6 @@ int main() {
 	int arr[10];
 	int* parr = arr;
 
-	int i;
 	int* pi = &i;
 
 	return 0;
@@ -37,11 +36,23 @@ int main() {
 #if choice == 3
 int main()
 {
-	int lincky_number = 3;
+	int lucky_number = 3;
 	std::cout << "내 비밀 수를 맞춰보세요-" << std::endl;
 
 	int user_input; // 사용자 입구
 
+	while (1) {
+		std::cout << "입력 :";
+		std::cin >> user_input;
+		if (lucky_number == user_input) {
+			std::cout << "일치함" << std::endl;
+			break;
+		}
+		else {
+			std::cout << "다시 생각" << std::endl;
+		}
+	}
+	return 0;
 }
 #endif // choice == 3
 
