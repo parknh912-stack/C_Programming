@@ -123,8 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_common_grammer.cpp" />
-    <ClCompile Include="01_hello_world.cpp" />
+    <ClCompile Include="01_2_common_grammer.cpp" />
+    <ClCompile Include="01_1_hello_world.cpp" />
+    <ClCompile Include="01_3_reference.cpp" />
+    <ClCompile Include="01_4_new_delete.cpp" />
+    <ClCompile Include="02_1_OOP.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01_header.h" />
