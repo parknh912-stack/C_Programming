@@ -1,5 +1,5 @@
 #if 1
-#define choice_2_1 ( 1 )
+#define choice_2_1 ( 5 )
 #include <iostream>
 
 // 객체와 클래스 만들어보기
@@ -225,11 +225,20 @@ Geometry 로 점들을 가지고 연산을 하는 클래스 입니다. 즉 아래와 같은 두 클래스의 
 모두 정의하세요 (난이도 : 上)
 */
 #if choice_2_1 == 5
+#include <cmath>
+#include <cstring>
+
 class Point {
-private:
 	int x, y;
 public:
 	Point(int pos_x, int pos_y);
+
+	int GetX() const {
+		return x;
+	}
+	int GetY() const {
+		return y;
+	}
 };
 
 Point::Point(int pos_x, int pos_y) {
@@ -240,7 +249,7 @@ Point::Point(int pos_x, int pos_y) {
 class Geometry {
 	// 점 100 개를 보관하는 배열.
 	Point* point_array[100];
-
+	int num_points;
 public:
 	Geometry(Point** point_list);
 	Geometry();
@@ -257,11 +266,25 @@ public:
 	void PrintNumMeets();
 };
 
-void Geometry::AddPoint(const Point& point) {
-	Point()
+Geometry::Geometry() {
+	memset(point_array, 0, sizeof(point_array));
+	num_points = 0;
 }
 
+void Geometry::AddPoint(const Point& point) {
+	point_array[num_points++] = new Point(point);
+}
 
+void Geometry::PrintDistance() {
+	for (int i = 0; i < num_points - 1; ++i) {
+		for (int j = i + 1; j < num_points; ++j) {
+			double dx = point_array[i]->GetX() - point_array[j]->GetX();
+			double dy = point_array[i]->GetY() - point_array[j]->GetY();
+			double d = std::sqrt(std::pow(dx, 2) + std::pow(dy, 2));
+			std::cout << d << std::endl;
+		}
+	}
+}
 
 
 
