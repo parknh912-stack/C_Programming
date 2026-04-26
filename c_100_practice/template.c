@@ -9,12 +9,18 @@
 #include <string.h>
 #include <stdbool.h>
 #include <math.h>
+#include <time.h>
 
 
+/*
 
+*/
+#if 1
 int main()
 {
 
 }
+#else
 
+#endif // 1
 #endif // 1

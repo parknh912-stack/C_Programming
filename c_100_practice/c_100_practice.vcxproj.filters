@@ -30,5 +30,26 @@
     <ClCompile Include="ch1_03.c">
       <Filter>소스 파일\Chapter1</Filter>
     </ClCompile>
+    <ClCompile Include="ch1_04.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1_05.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1_06.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1_07.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1_08.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1_09.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1_10.c">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

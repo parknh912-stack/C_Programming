@@ -126,6 +126,13 @@
     <ClCompile Include="ch1_01.c" />
     <ClCompile Include="ch1_02.c" />
     <ClCompile Include="ch1_03.c" />
+    <ClCompile Include="ch1_04.c" />
+    <ClCompile Include="ch1_05.c" />
+    <ClCompile Include="ch1_06.c" />
+    <ClCompile Include="ch1_07.c" />
+    <ClCompile Include="ch1_08.c" />
+    <ClCompile Include="ch1_09.c" />
+    <ClCompile Include="ch1_10.c" />
     <ClCompile Include="template.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
