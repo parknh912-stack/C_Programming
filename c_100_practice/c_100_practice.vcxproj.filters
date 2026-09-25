@@ -18,38 +18,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="template.c">
+    <ClCompile Include="part_01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch1_01.c">
-      <Filter>소스 파일\Chapter1</Filter>
+    <ClCompile Include="part_02.c">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch1_02.c">
-      <Filter>소스 파일\Chapter1</Filter>
+    <ClCompile Include="part_03.c">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch1_03.c">
-      <Filter>소스 파일\Chapter1</Filter>
+    <ClCompile Include="part_04.c">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch1_04.c">
-      <Filter>소스 파일\Chapter1</Filter>
+    <ClCompile Include="part_05.c">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch1_05.c">
-      <Filter>소스 파일\Chapter1</Filter>
-    </ClCompile>
-    <ClCompile Include="ch1_06.c">
-      <Filter>소스 파일\Chapter1</Filter>
-    </ClCompile>
-    <ClCompile Include="ch1_07.c">
-      <Filter>소스 파일\Chapter1</Filter>
-    </ClCompile>
-    <ClCompile Include="ch1_08.c">
-      <Filter>소스 파일\Chapter1</Filter>
-    </ClCompile>
-    <ClCompile Include="ch1_09.c">
-      <Filter>소스 파일\Chapter1</Filter>
-    </ClCompile>
-    <ClCompile Include="ch1_10.c">
-      <Filter>소스 파일\Chapter1</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="practice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
