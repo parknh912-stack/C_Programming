@@ -157,7 +157,7 @@ int main(void)
 #if PROBLEM == 5
 
 /*
-문제:
+문제: test
 
 풀이 아이디어:
 
