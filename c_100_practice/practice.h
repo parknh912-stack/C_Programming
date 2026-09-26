@@ -2,7 +2,7 @@
 
 // 실행할 파트와 문제 번호를 선택하세요.
 #define PART 1
-#define PROBLEM 5
+#define PROBLEM 25
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -19,3 +19,6 @@
 #if PROBLEM < 1 || (PART == 1 && PROBLEM > 25) || (PART == 2 && PROBLEM > 24) || (PART == 3 && PROBLEM > 20) || (PART == 4 && PROBLEM > 18) || (PART == 5 && PROBLEM > 13)
 #error Invalid PROBLEM for the selected PART.
 #endif
+
+
+// 기존 DAy 6 DAY9 등 참고하셈
