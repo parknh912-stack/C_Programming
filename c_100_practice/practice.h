@@ -2,7 +2,7 @@
 
 // 실행할 파트와 문제 번호를 선택하세요.
 #define PART 1
-#define PROBLEM 1
+#define PROBLEM 5
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
