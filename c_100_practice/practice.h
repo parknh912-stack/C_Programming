@@ -1,8 +1,8 @@
 ﻿#pragma once
 
 // 실행할 파트와 문제 번호를 선택하세요.
-#define PART 1
-#define PROBLEM 25
+#define PART 2
+#define PROBLEM 17
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -10,8 +10,13 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdbool.h>
-#include <math.h>
+#include <math.h>	//pow 등
 #include <time.h>
+#include <limits.h>
+#include <malloc.h>
+#include <ctype.h> //isdigit 등
+
+
 
 #if PART < 1 || PART > 5
 #error Invalid PART: choose 1 to 5.
